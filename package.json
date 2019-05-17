@@ -1,5 +1,5 @@
 {
-  "name": "muse-lsl",
+  "name": "tibetan-bowl.eeg",
   "version": "0.1.0",
   "description": "Muse 2016 EEG Headset LSL Server for Node.js",
   "main": "index.js",
@@ -10,10 +10,19 @@
     "start": "node index"
   },
   "dependencies": {
+    "@neurosity/pipes": "^3.2.3",
+    "asciichart": "^1.5.7",
     "bleat": "^0.1.4",
+    "blessed": "^0.1.81",
+    "blessed-contrib": "^4.8.10",
+    "circular-buffer": "github:cbarrick/CircularBuffer",
+    "fili": "^2.0.3",
+    "kissfft-js": "^0.1.8",
     "muse-js": "^1.0.0",
     "noble": "^1.8.1",
     "node-lsl": "^0.1.0",
+    "rpi-gpio": "^2.1.2",
+    "rx-op-sliding-window": "^1.0.2",
     "text-encoding": "^0.6.4",
     "usb": "^1.2.0"
   }
